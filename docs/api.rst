@@ -327,7 +327,7 @@ Generates Facebook login URL to request access token and permissions.
     app_id = 1231241241
     canvas_url = 'https://domain.com/that-handles-auth-response/'
     perms = ['manage_pages','publish_pages']
-    fb_login_url = graph.auth_url(app_id, canvas_url, perms)
+    fb_login_url = facebook.auth_url(app_id, canvas_url, perms)
     print(fb_login_url)
 
 get_permissions
